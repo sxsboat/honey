@@ -1,0 +1,115 @@
+<Solution>
+  <PropertyGroup Name="honey" Version="2.3.1.2" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Folder Name="ui" />
+        <Folder Name="scene">
+          <Folder Name="register">
+            <Folder Name="image">
+              <Image Name="bg.jpg" />
+              <Image Name="boy.png" />
+              <Image Name="girl.png" />
+            </Folder>
+            <Folder Name="layer">
+              <Project Name="register_layer.csd" Type="Layer" />
+            </Folder>
+            <Folder Name="ui">
+              <Image Name="btn.png" />
+              <Image Name="btn_choose.png" />
+              <Image Name="btn_choose_pressed.png" />
+              <Image Name="btn_pressed.png" />
+              <Image Name="btn_start.png" />
+              <Image Name="btn_start_pressed.png" />
+              <Image Name="icon_boy.png" />
+              <Image Name="icon_girl.png" />
+              <Image Name="input.png" />
+              <Image Name="yuema.png" />
+              <Project Name="tip_yuema.csd" Type="Node" />
+            </Folder>
+            <Folder Name="node" />
+            <Project Name="scene.csd" Type="Scene" />
+          </Folder>
+          <Folder Name="main">
+            <Folder Name="ui">
+              <Folder Name="common">
+                <Image Name="head_bg.png" />
+                <Image Name="tab_bg.png" />
+                <Image Name="find_off.png" />
+                <Image Name="find_on.png" />
+                <Image Name="keep_off.png" />
+                <Image Name="keep_on.png" />
+                <Image Name="setting_off.png" />
+                <Image Name="setting_on.png" />
+                <Image Name="talk_off.png" />
+                <Image Name="talk_on.png" />
+                <Image Name="batch.png" />
+                <Image Name="diamond.png" />
+                <Image Name="diamond_bg.png" />
+                <Image Name="msg.png" />
+                <Image Name="plus.png" />
+                <Image Name="bar_msg.png" />
+                <Image Name="msg_bg.png" />
+                <Image Name="age_boy.png" />
+                <Image Name="age_girl.png" />
+              </Folder>
+            </Folder>
+            <Folder Name="layer">
+              <Project Name="head_layer.csd" Type="Layer" />
+              <Project Name="tab_layer.csd" Type="Layer" />
+            </Folder>
+            <Project Name="scene.csd" Type="Scene" />
+            <Folder Name="image">
+              <Folder Name="common">
+                <Image Name="content_bg.png" />
+              </Folder>
+            </Folder>
+            <Folder Name="talk">
+              <Folder Name="item">
+                <Project Name="item_msg.csd" Type="Layer" />
+              </Folder>
+            </Folder>
+            <Folder Name="keep">
+              <Folder Name="item">
+                <Project Name="item_keep.csd" Type="Layer" />
+              </Folder>
+              <Folder Name="ui">
+                <Image Name="keep_circle_off.png" />
+                <Image Name="keep_circle_on.png" />
+                <Image Name="keep_circle.png" />
+                <Image Name="heart_off.png" />
+                <Image Name="heart_on.png" />
+              </Folder>
+            </Folder>
+            <Folder Name="find">
+              <Folder Name="item" />
+              <Folder Name="layer">
+                <Project Name="find_tab_layer.csd" Type="Layer" />
+              </Folder>
+            </Folder>
+          </Folder>
+          <Folder Name="chat" />
+        </Folder>
+        <Folder Name="music" />
+        <Folder Name="effects" />
+        <Folder Name="character">
+          <Folder Name="girls">
+            <Folder Name="1">
+              <Image Name="detail.jpg" />
+              <Image Name="face.png" />
+              <Image Name="face_circle.png" />
+              <Audio Name="sound.mp3" />
+            </Folder>
+            <Folder Name="25">
+              <Image Name="detail.jpg" />
+              <Image Name="icon.png" />
+              <Image Name="icon2.png" />
+              <Audio Name="sound.mp3" />
+            </Folder>
+          </Folder>
+        </Folder>
+        <Folder Name="image" />
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>

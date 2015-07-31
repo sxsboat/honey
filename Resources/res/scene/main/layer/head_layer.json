@@ -1,0 +1,570 @@
+{
+  "ID": "9391b23e-ece4-44d8-baa6-c1aa4d6f0bc4",
+  "Version": "2.3.1.1",
+  "Name": "head_layer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 84,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "scene/main/ui/common/head_bg.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 270.0,
+              "Y": 50.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Tag": 85,
+            "ActionTag": -1371734044,
+            "Size": {
+              "X": 540.0,
+              "Y": 100.0
+            },
+            "Name": "head_bg",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "scene/main/ui/common/msg.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 23.2472,
+              "Y": 78.8764
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.0431,
+              "Y": 0.7888
+            },
+            "PreSize": {
+              "X": 0.05,
+              "Y": 0.19
+            },
+            "LeftMargin": 9.7472,
+            "RightMargin": 503.2528,
+            "TopMargin": 11.6236,
+            "BottomMargin": 69.3764,
+            "Tag": 517,
+            "ActionTag": 381352790,
+            "Size": {
+              "X": 27.0,
+              "Y": 19.0
+            },
+            "Name": "spr_msg",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "scene/main/ui/common/msg_bg.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "scene/main/ui/common/msg_bg.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "scene/main/ui/common/msg_bg.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9Width": 132,
+            "Scale9Height": 22,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 108.929,
+              "Y": 77.3764
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.2017,
+              "Y": 0.7738
+            },
+            "PreSize": {
+              "X": 0.2444,
+              "Y": 0.2
+            },
+            "LeftMargin": 42.929,
+            "RightMargin": 365.071,
+            "TopMargin": 12.6236,
+            "BottomMargin": 67.3764,
+            "Tag": 518,
+            "ActionTag": -1269675836,
+            "Size": {
+              "X": 132.0,
+              "Y": 20.0
+            },
+            "Name": "btn_msg",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "scene/main/ui/common/diamond_bg.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "scene/main/ui/common/diamond_bg.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "scene/main/ui/common/diamond_bg.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 7,
+            "Scale9Width": 68,
+            "Scale9Height": 8,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 482.1531,
+              "Y": 77.3764
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.8929,
+              "Y": 0.7738
+            },
+            "PreSize": {
+              "X": 0.1815,
+              "Y": 0.22
+            },
+            "LeftMargin": 433.1531,
+            "RightMargin": 8.8469,
+            "TopMargin": 11.6236,
+            "BottomMargin": 66.3764,
+            "Tag": 520,
+            "ActionTag": 125892974,
+            "Size": {
+              "X": 98.0,
+              "Y": 22.0
+            },
+            "Name": "btn_diamond",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "scene/main/ui/common/diamond.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 408.7275,
+              "Y": 75.8764
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.7569,
+              "Y": 0.7588
+            },
+            "PreSize": {
+              "X": 0.0537,
+              "Y": 0.25
+            },
+            "LeftMargin": 394.2275,
+            "RightMargin": 116.7725,
+            "TopMargin": 11.6236,
+            "BottomMargin": 63.3764,
+            "Tag": 521,
+            "ActionTag": -1228885947,
+            "Size": {
+              "X": 29.0,
+              "Y": 25.0
+            },
+            "Name": "spr_diamond",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 36,
+            "LabelText": "信 息",
+            "HorizontalAlignmentType": "HT_Center",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 282.9614,
+              "Y": 32.85
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.524,
+              "Y": 0.3285
+            },
+            "PreSize": {
+              "X": 0.1667,
+              "Y": 0.36
+            },
+            "LeftMargin": 237.9614,
+            "RightMargin": 212.0386,
+            "TopMargin": 49.15,
+            "BottomMargin": 14.85,
+            "Tag": 522,
+            "ActionTag": 1351355424,
+            "Size": {
+              "X": 90.0,
+              "Y": 36.0
+            },
+            "Name": "lb_title",
+            "ctype": "TextObjectData"
+          },
+          {
+            "ProgressInfo": 35,
+            "ImageFileData": {
+              "Type": "Normal",
+              "Path": "scene/main/ui/common/bar_msg.png",
+              "Plist": ""
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 107.429,
+              "Y": 78.0482
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.1989,
+              "Y": 0.7805
+            },
+            "PreSize": {
+              "X": 0.2389,
+              "Y": 0.2
+            },
+            "LeftMargin": 42.929,
+            "RightMargin": 368.071,
+            "TopMargin": 11.9518,
+            "BottomMargin": 68.0482,
+            "Tag": 579,
+            "ActionTag": 592491748,
+            "Size": {
+              "X": 129.0,
+              "Y": 20.0
+            },
+            "Name": "pb_msg",
+            "ctype": "LoadingBarObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "scene/main/ui/common/plus.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 161.7853,
+              "Y": 77.6643
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.2996,
+              "Y": 0.7766
+            },
+            "PreSize": {
+              "X": 0.1679,
+              "Y": 1.0
+            },
+            "LeftMargin": 150.7853,
+            "RightMargin": 367.2147,
+            "TopMargin": 11.3357,
+            "BottomMargin": 66.6643,
+            "Tag": 580,
+            "ActionTag": 1661767506,
+            "Size": {
+              "X": 22.0,
+              "Y": 22.0
+            },
+            "Name": "spr_plus",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 20,
+            "LabelText": "50/50",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 75.6709,
+              "Y": 77.457
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.1401,
+              "Y": 0.7746
+            },
+            "PreSize": {
+              "X": 0.0926,
+              "Y": 0.2
+            },
+            "LeftMargin": 50.6709,
+            "RightMargin": 439.3291,
+            "TopMargin": 12.543,
+            "BottomMargin": 67.457,
+            "Tag": 523,
+            "ActionTag": 1968243676,
+            "Size": {
+              "X": 50.0,
+              "Y": 20.0
+            },
+            "Name": "lb_msg",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 20,
+            "LabelText": "128",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 456.2106,
+              "Y": 77.457
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.8448,
+              "Y": 0.7746
+            },
+            "PreSize": {
+              "X": 0.0556,
+              "Y": 0.2
+            },
+            "LeftMargin": 441.2106,
+            "RightMargin": 68.7894,
+            "TopMargin": 12.543,
+            "BottomMargin": 67.457,
+            "Tag": 524,
+            "ActionTag": 1107713865,
+            "Size": {
+              "X": 30.0,
+              "Y": 20.0
+            },
+            "Name": "lb_diamond",
+            "ctype": "TextObjectData"
+          }
+        ],
+        "Size": {
+          "X": 540.0,
+          "Y": 100.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "../ui/common/bar_msg.png",
+        "../ui/common/diamond.png",
+        "../ui/common/diamond_bg.png",
+        "../ui/common/head_bg.png",
+        "../ui/common/msg.png",
+        "../ui/common/msg_bg.png",
+        "../ui/common/plus.png"
+      ],
+      "ctype": "GameProjectData"
+    }
+  },
+  "Type": "Layer"
+}

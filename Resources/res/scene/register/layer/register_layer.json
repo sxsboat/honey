@@ -1,0 +1,762 @@
+{
+  "ID": "e14343df-f2a9-44b0-bbfa-f7aa22eeede1",
+  "Version": "2.3.1.1",
+  "Name": "register_layer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 4130,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "scene/register/image/girl.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 280.799,
+              "Y": 420.9539
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.52,
+              "Y": 0.6014
+            },
+            "PreSize": {
+              "X": 0.7593,
+              "Y": 0.5125
+            },
+            "LeftMargin": 75.799,
+            "RightMargin": 54.201,
+            "TopMargin": 33.0461,
+            "BottomMargin": 174.9539,
+            "Tag": 4131,
+            "ActionTag": 1075740520,
+            "Size": {
+              "X": 410.0,
+              "Y": 492.0
+            },
+            "Name": "character",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "scene/register/ui/input.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 264.1206,
+              "Y": 218.4461
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.4891,
+              "Y": 0.3121
+            },
+            "PreSize": {
+              "X": 0.6815,
+              "Y": 0.0865
+            },
+            "LeftMargin": 80.1206,
+            "RightMargin": 91.8794,
+            "TopMargin": 440.0539,
+            "BottomMargin": 176.9461,
+            "Tag": 4142,
+            "ActionTag": -1596513677,
+            "Size": {
+              "X": 368.0,
+              "Y": 83.0
+            },
+            "Name": "bg_user_name",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "scene/register/ui/btn_start_pressed.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "scene/register/ui/btn_start_pressed.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "scene/register/ui/btn_start.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 338,
+            "Scale9Height": 43,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 265.4481,
+              "Y": 45.3027
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4916,
+              "Y": 0.0647
+            },
+            "PercentWidthEnable": true,
+            "PercentHeightEnable": true,
+            "PercentWidthEnabled": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 0.6815,
+              "Y": 0.0929
+            },
+            "LeftMargin": 81.4481,
+            "RightMargin": 90.5519,
+            "TopMargin": 622.1973,
+            "BottomMargin": 12.8027,
+            "Tag": 4143,
+            "ActionTag": -819289838,
+            "Size": {
+              "X": 368.0,
+              "Y": 65.0
+            },
+            "Name": "btn_yue",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "scene/register/ui/btn_pressed.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "scene/register/ui/btn_pressed.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "scene/register/ui/btn.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 154,
+            "Scale9Height": 34,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 356.1605,
+              "Y": 149.0875
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.6596,
+              "Y": 0.213
+            },
+            "PreSize": {
+              "X": 0.3407,
+              "Y": 0.0583
+            },
+            "LeftMargin": 264.1605,
+            "RightMargin": 91.8395,
+            "TopMargin": 522.9125,
+            "BottomMargin": 121.0875,
+            "Tag": 4148,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "scene/register/ui/btn_choose.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 21.0128,
+                  "Y": 30.6488
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.1142,
+                  "Y": 0.5473
+                },
+                "PreSize": {
+                  "X": 0.1413,
+                  "Y": 0.4643
+                },
+                "LeftMargin": 8.0128,
+                "RightMargin": 149.9872,
+                "TopMargin": 12.3512,
+                "BottomMargin": 17.6488,
+                "Tag": 4151,
+                "ActionTag": -1258072998,
+                "Size": {
+                  "X": 26.0,
+                  "Y": 26.0
+                },
+                "Name": "radio_boy",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": -353834119,
+            "Size": {
+              "X": 184.0,
+              "Y": 56.0
+            },
+            "Name": "btn_boy",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "scene/register/ui/icon_boy.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 419.9921,
+              "Y": 151.4868
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.7778,
+              "Y": 0.2164
+            },
+            "PreSize": {
+              "X": 0.1793,
+              "Y": 0.5714
+            },
+            "LeftMargin": 403.4921,
+            "RightMargin": 103.5079,
+            "TopMargin": 532.5132,
+            "BottomMargin": 135.4868,
+            "Tag": 4153,
+            "ActionTag": -1660298448,
+            "Size": {
+              "X": 33.0,
+              "Y": 32.0
+            },
+            "Name": "icon_boy",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FlipX": true,
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "DisabledFileData": {
+              "Type": "Normal",
+              "Path": "scene/register/ui/btn_pressed.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Normal",
+              "Path": "scene/register/ui/btn_pressed.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "scene/register/ui/btn.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 154,
+            "Scale9Height": 34,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 172.1771,
+              "Y": 149.0901
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.3188,
+              "Y": 0.213
+            },
+            "PreSize": {
+              "X": 0.3407,
+              "Y": 0.0583
+            },
+            "LeftMargin": 80.1771,
+            "RightMargin": 275.8229,
+            "TopMargin": 522.9099,
+            "BottomMargin": 121.0901,
+            "Tag": 4149,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "scene/register/ui/btn_choose_pressed.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 161.92,
+                  "Y": 30.6488
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.88,
+                  "Y": 0.5473
+                },
+                "PreSize": {
+                  "X": 0.1413,
+                  "Y": 0.4643
+                },
+                "LeftMargin": 148.92,
+                "RightMargin": 9.08,
+                "TopMargin": 12.3512,
+                "BottomMargin": 17.6488,
+                "Tag": 4150,
+                "ActionTag": 1061644300,
+                "Size": {
+                  "X": 26.0,
+                  "Y": 26.0
+                },
+                "Name": "radio_girl",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": -1839634014,
+            "Size": {
+              "X": 184.0,
+              "Y": 56.0
+            },
+            "Name": "btn_girl",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "scene/register/ui/icon_girl.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 236.6965,
+              "Y": 151.5164
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.4383,
+              "Y": 0.2165
+            },
+            "PreSize": {
+              "X": 0.1848,
+              "Y": 0.6071
+            },
+            "LeftMargin": 219.6965,
+            "RightMargin": 286.3035,
+            "TopMargin": 531.4836,
+            "BottomMargin": 134.5164,
+            "Tag": 4152,
+            "ActionTag": 1898049013,
+            "Size": {
+              "X": 34.0,
+              "Y": 34.0
+            },
+            "Name": "icon_girl",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 22,
+            "LabelText": "选择美女",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 169.5353,
+              "Y": 150.7733
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.314,
+              "Y": 0.2154
+            },
+            "PreSize": {
+              "X": 0.1481,
+              "Y": 0.0208
+            },
+            "LeftMargin": 125.5353,
+            "RightMargin": 326.4647,
+            "TopMargin": 538.2267,
+            "BottomMargin": 139.7733,
+            "Tag": 4154,
+            "ActionTag": -1053967132,
+            "Size": {
+              "X": 88.0,
+              "Y": 22.0
+            },
+            "Name": "lb_girl",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 22,
+            "LabelText": "选择帅哥",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 351.6371,
+              "Y": 150.7804
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.6512,
+              "Y": 0.2154
+            },
+            "PreSize": {
+              "X": 0.1481,
+              "Y": 0.0208
+            },
+            "LeftMargin": 307.6371,
+            "RightMargin": 144.3629,
+            "TopMargin": 538.2196,
+            "BottomMargin": 139.7804,
+            "Tag": 4155,
+            "ActionTag": -670254461,
+            "Size": {
+              "X": 88.0,
+              "Y": 22.0
+            },
+            "Name": "lb_boy",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FontSize": 36,
+            "IsCustomSize": true,
+            "LabelText": "",
+            "PlaceHolderText": "",
+            "MaxLengthEnable": true,
+            "MaxLengthText": 8,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 268.1184,
+              "Y": 212.4157
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.4965,
+              "Y": 0.3035
+            },
+            "PreSize": {
+              "X": 0.5556,
+              "Y": 0.0521
+            },
+            "LeftMargin": 118.1184,
+            "RightMargin": 121.8816,
+            "TopMargin": 462.5843,
+            "BottomMargin": 187.4157,
+            "Tag": 4156,
+            "ActionTag": -1074376656,
+            "Size": {
+              "X": 300.0,
+              "Y": 50.0
+            },
+            "Name": "txt_user_name",
+            "ctype": "TextFieldObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "scene/register/ui/tip_yuema.json",
+              "Plist": ""
+            },
+            "InnerActionSpeed": 1.0,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 107.3337,
+              "Y": 636.297
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.1988,
+              "Y": 0.909
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 107.3337,
+            "RightMargin": 432.6663,
+            "TopMargin": 63.703,
+            "BottomMargin": 636.297,
+            "Tag": 4274,
+            "ActionTag": 1772097985,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "tip_yuema",
+            "ctype": "ProjectNodeObjectData"
+          }
+        ],
+        "Size": {
+          "X": 540.0,
+          "Y": 700.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "../image/girl.png",
+        "../ui/btn.png",
+        "../ui/btn_choose.png",
+        "../ui/btn_choose_pressed.png",
+        "../ui/btn_pressed.png",
+        "../ui/btn_start.png",
+        "../ui/btn_start_pressed.png",
+        "../ui/icon_boy.png",
+        "../ui/icon_girl.png",
+        "../ui/input.png",
+        "../ui/tip_yuema.json"
+      ],
+      "ctype": "GameProjectData"
+    }
+  },
+  "Type": "Layer"
+}
