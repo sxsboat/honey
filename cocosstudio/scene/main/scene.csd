@@ -22,7 +22,7 @@
                 <EndColor A="255" R="255" G="255" B="255" />
                 <ColorVector ScaleY="1.0000" />
               </AbstractNodeData>
-              <AbstractNodeData Name="pnl_keep" CanEdit="False" ActionTag="357818593" Tag="292" VisibleForFrame="False" IconVisible="False" PercentWidthEnable="True" PercentHeightEnable="True" PercentWidthEnabled="True" PercentHeightEnabled="True" TouchEnable="True" BackColorAlpha="102" ComboBoxIndex="1" ColorAngle="90.0000" ctype="PanelObjectData">
+              <AbstractNodeData Name="pnl_keep" CanEdit="False" Visible="False" ActionTag="357818593" Tag="292" VisibleForFrame="False" IconVisible="False" PercentWidthEnable="True" PercentHeightEnable="True" PercentWidthEnabled="True" PercentHeightEnabled="True" TouchEnable="True" BackColorAlpha="102" ComboBoxIndex="1" ColorAngle="90.0000" ctype="PanelObjectData">
                 <Size X="540.0000" Y="760.0320" />
                 <Children>
                   <AbstractNodeData Name="pnl_circle" CanEdit="False" ActionTag="-1943945486" Tag="257" IconVisible="False" PercentHeightEnable="True" PercentHeightEnabled="True" VerticalEdge="TopEdge" BottomMargin="562.4237" TouchEnable="True" BackColorAlpha="102" ColorAngle="90.0000" ctype="PanelObjectData">
@@ -117,7 +117,7 @@
                     <PreSize X="1.0000" Y="0.0658" />
                     <FileData Type="Normal" Path="scene/main/find/layer/find_tab_layer.csd" Plist="" />
                   </AbstractNodeData>
-                  <AbstractNodeData Name="pvw_content" ActionTag="1578634670" Tag="142" IconVisible="False" HorizontalEdge="LeftEdge" VerticalEdge="BothEdge" TopMargin="50.0000" StretchHeightEnable="True" ClipAble="True" BackColorAlpha="102" ColorAngle="90.0000" ScrollDirectionType="0" ctype="PageViewObjectData">
+                  <AbstractNodeData Name="pvw_find" ActionTag="1578634670" Tag="142" IconVisible="False" HorizontalEdge="LeftEdge" VerticalEdge="BothEdge" TopMargin="50.0000" StretchHeightEnable="True" ClipAble="True" BackColorAlpha="102" ColorAngle="90.0000" ScrollDirectionType="0" ctype="PageViewObjectData">
                     <Size X="540.0000" Y="710.0320" />
                     <AnchorPoint />
                     <Position />

@@ -86,6 +86,10 @@
               <Folder Name="layer">
                 <Project Name="find_tab_layer.csd" Type="Layer" />
               </Folder>
+              <Folder Name="ui">
+                <Image Name="all_girl.png" />
+                <Image Name="diamond.png" />
+              </Folder>
             </Folder>
           </Folder>
           <Folder Name="chat" />
