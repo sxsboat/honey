@@ -91,6 +91,30 @@
                 <Image Name="diamond.png" />
               </Folder>
             </Folder>
+            <Folder Name="setting">
+              <Folder Name="layer">
+                <Project Name="setting_layer.csd" Type="Layer" />
+              </Folder>
+              <Folder Name="ui">
+                <Image Name="btn_choose_off.png" />
+                <Image Name="btn_choose_on.png" />
+                <Image Name="btn_off.png" />
+                <Image Name="btn_on.png" />
+                <Image Name="exchange.png" />
+                <Image Name="gift_code_bg.png" />
+                <Image Name="heart.png" />
+                <Image Name="input.png" />
+                <Image Name="intro.png" />
+                <Image Name="music_off.png" />
+                <Image Name="music_on.png" />
+                <Image Name="sava_off.png" />
+                <Image Name="sava_on.png" />
+                <Image Name="bg.png" />
+                <Image Name="info_bg.png" />
+                <Image Name="btn_girl_on.png" />
+                <Image Name="btn_gril_off.png" />
+              </Folder>
+            </Folder>
           </Folder>
           <Folder Name="chat" />
         </Folder>
