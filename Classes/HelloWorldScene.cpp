@@ -46,7 +46,6 @@ bool HelloWorld::init()
 
 	// init sprites
 	character = dynamic_cast<Sprite*>(NodeUtil::seekFromRootByName(rootNode, std::string("character")));
-	txt_user_name = dynamic_cast<cocos2d::ui::TextField*>(NodeUtil::seekFromRootByName(rootNode, std::string("txt_user_name")));
 	radio_girl = dynamic_cast<cocos2d::Sprite*>(NodeUtil::seekFromRootByName(rootNode, std::string("radio_girl")));
 	radio_boy = dynamic_cast<cocos2d::Sprite*>(NodeUtil::seekFromRootByName(rootNode, std::string("radio_boy")));
 	tip_yuema = dynamic_cast<cocos2d::Node*>(NodeUtil::seekFromRootByName(rootNode, std::string("tip_yuema")));
@@ -54,8 +53,19 @@ bool HelloWorld::init()
 	btn_girl = dynamic_cast<cocos2d::ui::Button*>(NodeUtil::seekFromRootByName(rootNode, std::string("btn_girl")));
 	btn_boy = dynamic_cast<cocos2d::ui::Button*>(NodeUtil::seekFromRootByName(rootNode, std::string("btn_boy")));
 
+	auto tfd_user_name = dynamic_cast<cocos2d::ui::TextField*>(NodeUtil::seekFromRootByName(rootNode, std::string("txt_user_name")));
+	auto layer_register = dynamic_cast<cocos2d::Node*>(NodeUtil::seekFromRootByName(rootNode, std::string("layer_register")));
+	auto txt_user_name_position = tfd_user_name->getPosition();
+	auto txt_user_name_size = tfd_user_name->getContentSize();
+	txt_user_name = ui::EditBox::create(txt_user_name_size, ui::Scale9Sprite::create());
+	txt_user_name->setPosition(txt_user_name_position);
+	txt_user_name->setFontSize(36);
+	txt_user_name->setFontColor(Color4B(0,0,0, 255));
+	txt_user_name->setMaxLength(8);
+	layer_register->addChild(txt_user_name);
+
 	// init sprites data
-	txt_user_name->setText(user_name);
+	txt_user_name->setText(user_name.c_str());
 
 	// init listeners
 	btn_yue->addClickEventListener(CC_CALLBACK_1(HelloWorld::onClick, this));
@@ -95,7 +105,7 @@ void HelloWorld::onBoyClick() {
 }
 
 void HelloWorld::onYueClick() {
-	user_name = txt_user_name->getStringValue();
+	user_name = txt_user_name->getText();
 	if (user_name.empty()) {
 		showYuemaTip();
 	}

@@ -59,6 +59,10 @@ bool MainStage::init()
 	lb_msg = dynamic_cast<cocos2d::ui::Text*>(NodeUtil::seekFromRootByName(pnl_find, std::string("lb_msg")));
 	lb_free_diamond = dynamic_cast<cocos2d::ui::Text*>(NodeUtil::seekFromRootByName(pnl_find, std::string("lb_free_diamond")));
 
+	// setting
+	btn_ok = dynamic_cast<cocos2d::ui::Button*>(NodeUtil::seekFromRootByName(pnl_setting, std::string("btn_ok")));
+	
+
 	//auto button = ui::Button::create();
 	//button->loadTextureNormal("scene/register/ui/yuema.png");
 	//lvw_talk->setItemModel(button);
@@ -245,6 +249,14 @@ bool MainStage::init()
 	lb_free_diamond->addClickEventListener(CC_CALLBACK_1(MainStage::onFindTabClick, this));
 
 	lvw_talk->addEventListener((ui::ListView::ccListViewCallback)CC_CALLBACK_2(MainStage::onItemClick, this));
+
+	// setting
+	btn_ok->addClickEventListener([](cocos2d::Ref* pSender){
+		auto button = dynamic_cast<ui::Button*>(pSender);
+		auto action_big = ScaleTo::create(0.1f, 1.2f);
+		auto action_normal = ScaleTo::create(0.1f, 1.0f);
+		button->runAction(Sequence::create(action_big, action_normal, nullptr));
+	});
 
 	showTab(TAB::TALK);
     return true;

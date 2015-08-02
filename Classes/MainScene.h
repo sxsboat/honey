@@ -62,6 +62,8 @@ private:
 	cocos2d::ui::Text* lb_msg;
 	cocos2d::ui::Text* lb_free_diamond;
 
+	// setting
+	cocos2d::ui::Button* btn_ok;
 
 	// show tab by tab index
 	void showTab(TAB tab);

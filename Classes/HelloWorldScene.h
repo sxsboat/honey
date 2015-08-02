@@ -26,13 +26,13 @@ private:
 
 	// sprites
 	cocos2d::Sprite* character;
-	cocos2d::ui::TextField* txt_user_name;
 	cocos2d::Sprite* radio_girl;
 	cocos2d::Sprite* radio_boy;
 	cocos2d::Node* tip_yuema;
 	cocos2d::ui::Button* btn_yue;
 	cocos2d::ui::Button* btn_girl;
 	cocos2d::ui::Button* btn_boy;
+	cocos2d::ui::EditBox* txt_user_name;
 
 	// show yuema tip
 	void showYuemaTip();
