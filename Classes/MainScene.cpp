@@ -65,11 +65,47 @@ bool MainStage::init()
 	// init data
 	for (int i = 0; i < 3; i++) {
 		auto node = dynamic_cast<cocos2d::Node*>(CSLoader::createNode("scene/main/talk/item/item_msg.csb"));
+		node->setName("root_node");
 		ui::Layout* layout = ui::Layout::create();
 		layout->setSize(node->getContentSize());
 		layout->setLayoutType(ui::Layout::Type::VERTICAL);
 		layout->addChild(node);
 		layout->setTouchEnabled(true);
+		// add click listener
+		layout->addClickEventListener([](cocos2d::Ref* pSender){
+			log("----------item clicked---------");
+		});
+		// add touch listener
+		layout->addTouchEventListener([](cocos2d::Ref* pSender, cocos2d::ui::Widget::TouchEventType event){
+			auto layout = dynamic_cast<ui::Layout*>(pSender);
+			auto node = layout->getChildByName("root_node");
+			auto layout_bg = dynamic_cast<ui::Layout*>(node->getChildByName("pnl_item_bg"));
+			Vec2 start;
+			Vec2 moved;
+			float x;
+			float y;
+			switch (event)
+			{
+			case cocos2d::ui::Widget::TouchEventType::BEGAN:
+				layout_bg->setBackGroundColor(Color3B(233, 233, 233));
+				break;
+			case cocos2d::ui::Widget::TouchEventType::MOVED:
+				start = layout->getTouchBeganPosition();
+				moved = layout->getTouchMovePosition();
+				x = moved.x - start.x;
+				y = moved.y - start.y;
+				if (fabs(x) > 50 || fabs(y) > 50) {
+					layout_bg->setBackGroundColor(Color3B(255, 255, 255));
+				}
+				break;
+			case cocos2d::ui::Widget::TouchEventType::ENDED:
+			case cocos2d::ui::Widget::TouchEventType::CANCELED:
+				layout_bg->setBackGroundColor(Color3B(255, 255, 255));
+				break;
+			default:
+				break;
+			}
+		});
 		lvw_talk->pushBackCustomItem(layout);
 		//lvw_talk->pushBackDefaultItem();
 	}
@@ -77,11 +113,47 @@ bool MainStage::init()
 	// init keep listview
 	for (int i = 0; i < 5; i++) {
 		auto node = dynamic_cast<cocos2d::Node*>(CSLoader::createNode("scene/main/keep/item/item_keep.csb"));
+		node->setName("root_node");
 		ui::Layout* layout = ui::Layout::create();
 		layout->setSize(node->getContentSize());
 		layout->setLayoutType(ui::Layout::Type::VERTICAL);
 		layout->addChild(node);
 		layout->setTouchEnabled(true);
+		// add click listener
+		layout->addClickEventListener([](cocos2d::Ref* pSender){
+			log("----------item clicked---------");
+		});
+		// add touch listener
+		layout->addTouchEventListener([](cocos2d::Ref* pSender, cocos2d::ui::Widget::TouchEventType event){
+			auto layout = dynamic_cast<ui::Layout*>(pSender);
+			auto node = layout->getChildByName("root_node");
+			auto layout_bg = dynamic_cast<ui::Layout*>(node->getChildByName("pnl_item_bg"));
+			Vec2 start;
+			Vec2 moved;
+			float x;
+			float y;
+			switch (event)
+			{
+			case cocos2d::ui::Widget::TouchEventType::BEGAN:
+				layout_bg->setBackGroundColor(Color3B(233, 233, 233));
+				break;
+			case cocos2d::ui::Widget::TouchEventType::MOVED:
+				start = layout->getTouchBeganPosition();
+				moved = layout->getTouchMovePosition();
+				x = moved.x - start.x;
+				y = moved.y - start.y;
+				if (fabs(x) > 50 || fabs(y) > 50) {
+					layout_bg->setBackGroundColor(Color3B(255, 255, 255));
+				}
+				break;
+			case cocos2d::ui::Widget::TouchEventType::ENDED:
+			case cocos2d::ui::Widget::TouchEventType::CANCELED:
+				layout_bg->setBackGroundColor(Color3B(255, 255, 255));
+				break;
+			default:
+				break;
+			}
+		});
 		lvw_keep->pushBackCustomItem(layout);
 	}
 
@@ -145,8 +217,6 @@ bool MainStage::init()
 					}
 					break;
 				case cocos2d::ui::Widget::TouchEventType::ENDED:
-					image->setScale(0.95f);
-					break;
 				case cocos2d::ui::Widget::TouchEventType::CANCELED:
 					image->setScale(0.95f);
 					break;

@@ -9,7 +9,7 @@
           <AbstractNodeData Name="pnl_top" ActionTag="-1596167728" Tag="1719" IconVisible="False" PercentHeightEnable="True" PercentHeightEnabled="True" VerticalEdge="TopEdge" BottomMargin="350.0000" TouchEnable="True" BackColorAlpha="102" ComboBoxIndex="1" ColorAngle="90.0000" Scale9Width="540" Scale9Height="410" ctype="PanelObjectData">
             <Size X="540.0000" Y="410.0000" />
             <Children>
-              <AbstractNodeData Name="img_code_bg" ActionTag="1304273404" Tag="1715" IconVisible="False" PositionPercentYEnabled="True" HorizontalEdge="LeftEdge" LeftMargin="17.8374" RightMargin="202.1626" TopMargin="42.0812" BottomMargin="325.9188" Scale9Enable="True" LeftEage="13" RightEage="13" TopEage="13" BottomEage="13" Scale9OriginX="13" Scale9OriginY="13" Scale9Width="16" Scale9Height="16" ctype="ImageViewObjectData">
+              <AbstractNodeData Name="img_code_bg" ActionTag="1304273404" Tag="1715" IconVisible="False" PositionPercentYEnabled="True" HorizontalEdge="LeftEdge" LeftMargin="17.8374" RightMargin="202.1626" TopMargin="42.0990" BottomMargin="325.9010" Scale9Enable="True" LeftEage="13" RightEage="13" TopEage="13" BottomEage="13" Scale9OriginX="13" Scale9OriginY="13" Scale9Width="16" Scale9Height="16" ctype="ImageViewObjectData">
                 <Size X="320.0000" Y="42.0000" />
                 <Children>
                   <AbstractNodeData Name="txt_code" ActionTag="-408056120" Tag="1716" IconVisible="False" PercentWidthEnable="True" PercentHeightEnable="True" PercentWidthEnabled="True" PercentHeightEnabled="True" HorizontalEdge="LeftEdge" LeftMargin="10.0000" RightMargin="22.0000" TopMargin="8.4000" TouchEnable="True" FontSize="24" IsCustomSize="True" LabelText="" PlaceHolderText="礼包兑换码" MaxLengthEnable="True" MaxLengthText="10" ctype="TextFieldObjectData">
@@ -23,17 +23,17 @@
                   </AbstractNodeData>
                 </Children>
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                <Position X="177.8374" Y="346.9188" />
+                <Position X="177.8374" Y="346.9010" />
                 <Scale ScaleX="1.0000" ScaleY="1.0000" />
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition X="0.3293" Y="0.8461" />
                 <PreSize X="0.5926" Y="0.1024" />
                 <FileData Type="Normal" Path="scene/main/setting/ui/gift_code_bg.png" Plist="" />
               </AbstractNodeData>
-              <AbstractNodeData Name="btn_ok" ActionTag="-2122122663" Tag="1714" IconVisible="False" PositionPercentYEnabled="True" HorizontalEdge="RightEdge" LeftMargin="352.5189" RightMargin="10.4811" TopMargin="36.0819" BottomMargin="319.9181" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="147" Scale9Height="32" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+              <AbstractNodeData Name="btn_ok" ActionTag="-2122122663" Tag="1714" IconVisible="False" HorizontalEdge="RightEdge" LeftMargin="352.5189" RightMargin="10.4811" TopMargin="36.0990" BottomMargin="319.9010" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="147" Scale9Height="32" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
                 <Size X="177.0000" Y="54.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                <Position X="441.0189" Y="346.9181" />
+                <Position X="441.0189" Y="346.9010" />
                 <Scale ScaleX="1.0000" ScaleY="1.0000" />
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition X="0.8167" Y="0.8461" />
@@ -116,7 +116,7 @@
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
           </AbstractNodeData>
-          <AbstractNodeData Name="lb_line_3" ActionTag="530185029" Tag="1768" IconVisible="False" HorizontalEdge="LeftEdge" LeftMargin="45.0119" RightMargin="94.9881" TopMargin="555.0573" BottomMargin="178.9428" IsCustomSize="True" FontSize="24" LabelText="免责声明" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+          <AbstractNodeData Name="lb_line_3" ActionTag="530185029" Tag="1768" IconVisible="False" HorizontalEdge="LeftEdge" LeftMargin="45.0119" RightMargin="94.9881" TopMargin="555.0572" BottomMargin="178.9428" IsCustomSize="True" FontSize="24" LabelText="免责声明" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
             <Size X="400.0000" Y="26.0000" />
             <Children>
               <AbstractNodeData Name="heart" ActionTag="664248054" Tag="1769" IconVisible="False" LeftMargin="-24.6245" RightMargin="408.6245" TopMargin="6.0186" BottomMargin="5.9814" ctype="SpriteObjectData">
@@ -164,7 +164,7 @@
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
           </AbstractNodeData>
-          <AbstractNodeData Name="lb_line_5" ActionTag="-832971707" Tag="1772" IconVisible="False" HorizontalEdge="LeftEdge" LeftMargin="45.0119" RightMargin="94.9881" TopMargin="660.1251" BottomMargin="73.8750" IsCustomSize="True" FontSize="24" LabelText="免责声明" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+          <AbstractNodeData Name="lb_line_5" ActionTag="-832971707" Tag="1772" IconVisible="False" HorizontalEdge="LeftEdge" LeftMargin="45.0119" RightMargin="94.9881" TopMargin="660.1250" BottomMargin="73.8750" IsCustomSize="True" FontSize="24" LabelText="免责声明" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
             <Size X="400.0000" Y="26.0000" />
             <Children>
               <AbstractNodeData Name="heart" ActionTag="1938288283" Tag="1773" IconVisible="False" LeftMargin="-24.6245" RightMargin="408.6245" TopMargin="6.0186" BottomMargin="5.9814" ctype="SpriteObjectData">
@@ -188,7 +188,7 @@
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
           </AbstractNodeData>
-          <AbstractNodeData Name="lb_line_6" ActionTag="-1095270805" Tag="1774" IconVisible="False" HorizontalEdge="LeftEdge" LeftMargin="45.0119" RightMargin="94.9881" TopMargin="712.6589" BottomMargin="21.3410" IsCustomSize="True" FontSize="24" LabelText="版本号：1.0.0" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+          <AbstractNodeData Name="lb_line_6" ActionTag="-1095270805" Tag="1774" IconVisible="False" HorizontalEdge="LeftEdge" LeftMargin="45.0119" RightMargin="94.9881" TopMargin="712.6590" BottomMargin="21.3410" IsCustomSize="True" FontSize="24" LabelText="版本号：1.0.0" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
             <Size X="400.0000" Y="26.0000" />
             <Children>
               <AbstractNodeData Name="heart" ActionTag="1348168892" Tag="1775" IconVisible="False" LeftMargin="-24.6245" RightMargin="408.6245" TopMargin="6.0186" BottomMargin="5.9814" ctype="SpriteObjectData">
