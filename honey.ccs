@@ -116,7 +116,43 @@
               </Folder>
             </Folder>
           </Folder>
-          <Folder Name="chat" />
+          <Folder Name="chat">
+            <Folder Name="ui">
+              <Image Name="tips1.png" />
+              <Image Name="tips2.png" />
+              <Image Name="chat_bg_1.jpg" />
+              <Image Name="chat_bg_2.jpg" />
+              <Image Name="chat_bg_3.jpg" />
+              <Image Name="back.png" />
+              <Image Name="circle.png" />
+              <Image Name="heart_blue.png" />
+              <Image Name="heart_gray.png" />
+              <Image Name="close.png" />
+              <Image Name="help.png" />
+              <Image Name="input.png" />
+              <Image Name="open.png" />
+              <Image Name="option_off.png" />
+              <Image Name="option_on.png" />
+              <Image Name="footer_bg.png" />
+            </Folder>
+            <Project Name="scene.csd" Type="Scene" />
+            <Folder Name="layer">
+              <Project Name="head_layer.csd" Type="Layer" />
+              <Project Name="footer_layer.csd" Type="Layer" />
+            </Folder>
+          </Folder>
+          <Folder Name="scan">
+            <Folder Name="ui">
+              <Image Name="circle.png" />
+              <Image Name="light.png" />
+              <Image Name="scan_bg.jpg" />
+              <Image Name="heart.png" />
+            </Folder>
+            <Project Name="scene.csd" Type="Scene" />
+            <Folder Name="layer">
+              <Project Name="head_layer.csd" Type="Layer" />
+            </Folder>
+          </Folder>
         </Folder>
         <Folder Name="music" />
         <Folder Name="effects" />

@@ -1,6 +1,8 @@
 #include "cocostudio/CocoStudio.h"
 #include "ui/CocosGUI.h"
 #include "MainScene.h"
+#include "ChatScene.h"
+#include "ScanScene.h"
 #include "NodeUtil.h"
 
 USING_NS_CC;
@@ -421,15 +423,28 @@ void MainStage::showFindTab(FIND_TAB tab) {
 
 void MainStage::onItemClick(cocos2d::Ref* pSender, cocos2d::ui::ListView::EventType eventType) {
 	auto list = dynamic_cast<ui::ListView*>(pSender);
+	Scene* scene;
+	TransitionFade* transitions;
+	int index = list->getCurSelectedIndex();
 	switch (eventType) {
 		case cocos2d::ui::ListView::EventType::ON_SELECTED_ITEM_START:
-			log("------item click start, index:%d------", list->getCurSelectedIndex());
+			log("------item click start, index:%d------", index);
 			break;
 		case cocos2d::ui::ListView::EventType::ON_SELECTED_ITEM_END:
-			log("------item click end------index:%d", list->getCurSelectedIndex());
+			log("------item click end------index:%d", index);
+			if (index == 0) { // go scan
+				scene = ScanStage::createScene();
+				transitions = TransitionFade::create(0.5f, scene);
+				Director::getInstance()->pushScene(transitions);
+			}
+			else { // go chat
+				scene = ChatStage::createScene();
+				transitions = TransitionFade::create(0.5f, scene);
+				Director::getInstance()->pushScene(transitions);
+			}
 			break;
 		default:
-			log("------item click default------");
+			log("------item click default------%d", index);
 			break;
 	}
 }
