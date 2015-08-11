@@ -8,6 +8,18 @@ class ChatStage : public cocos2d::Layer
 {
 public:
 
+	enum class REPLY_PANEL_STATE {
+		NONE = -1,
+		OPEN,
+		CLOSE
+	};
+
+	enum class SHOW_TAB {
+		NONE = -1,
+		REPLY,
+		WAIT
+	};
+
     // there's no 'id' in cpp, so we recommend returning the class instance pointer
     static cocos2d::Scene* createScene();
 
@@ -17,9 +29,33 @@ public:
     // implement the "static create()" method manually
 	CREATE_FUNC(ChatStage);
 
-private:
-	cocos2d::ui::ImageView* img_back;
+	void onEnter() override;
+	void onExit() override;
 
+private:
+
+	REPLY_PANEL_STATE reply_panel_state = REPLY_PANEL_STATE::NONE;
+	SHOW_TAB current_show_tab = SHOW_TAB::NONE;
+
+	cocos2d::ui::ImageView* img_back;
+	cocos2d::ui::ImageView* img_say;
+	cocos2d::ui::Text* lb_gold;
+	cocos2d::ui::Layout* pnl_show;
+	cocos2d::ui::ImageView* img_arrow;
+
+	// footer show panel
+	cocos2d::ui::Layout* pnl_reply_select;
+
+	//footer
+	cocos2d::Node* footer;
+
+	// listview 
+	cocos2d::ui::ListView* lvw_chat;
+
+	// toggle reply state
+	void toggleReplyPanel();
+
+	void showTab(SHOW_TAB tab);
 };
 
 #endif // __CHAT_SCENE_H__

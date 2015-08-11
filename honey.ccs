@@ -3,7 +3,6 @@
   <SolutionFolder>
     <Group ctype="ResourceGroup">
       <RootFolder Name=".">
-        <Folder Name="ui" />
         <Folder Name="scene">
           <Folder Name="register">
             <Folder Name="image">
@@ -134,11 +133,19 @@
               <Image Name="option_off.png" />
               <Image Name="option_on.png" />
               <Image Name="footer_bg.png" />
+              <Image Name="gold.png" />
+              <Image Name="talk_green_bg.png" />
+              <Image Name="talk_white_bg.png" />
+              <Image Name="replay_select_bg.png" />
             </Folder>
             <Project Name="scene.csd" Type="Scene" />
             <Folder Name="layer">
               <Project Name="head_layer.csd" Type="Layer" />
               <Project Name="footer_layer.csd" Type="Layer" />
+            </Folder>
+            <Folder Name="item">
+              <Project Name="item_you.csd" Type="Node" />
+              <Project Name="item_me.csd" Type="Node" />
             </Folder>
           </Folder>
           <Folder Name="scan">
