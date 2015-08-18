@@ -1,7 +1,7 @@
 #include "cocostudio/CocoStudio.h"
 #include "ui/CocosGUI.h"
 #include "ScanScene.h"
-#include "NodeUtil.h"
+#include "../utils/NodeUtil.h"
 
 USING_NS_CC;
 

@@ -1,20 +1,20 @@
-#include "HelloWorldScene.h"
+#include "RegisterScene.h"
 #include "cocostudio/CocoStudio.h"
 #include "ui/CocosGUI.h"
 #include "MainScene.h"
-#include "NodeUtil.h"
+#include "../utils/NodeUtil.h"
 
 USING_NS_CC;
 
 using namespace cocostudio::timeline;
 
-Scene* HelloWorld::createScene()
+Scene* RegisterStage::createScene()
 {
     // 'scene' is an autorelease object
     auto scene = Scene::create();
     
     // 'layer' is an autorelease object
-    auto layer = HelloWorld::create();
+	auto layer = RegisterStage::create();
 
     // add layer as a child to scene
     scene->addChild(layer);
@@ -24,7 +24,7 @@ Scene* HelloWorld::createScene()
 }
 
 // on "init" you need to initialize your instance
-bool HelloWorld::init()
+bool RegisterStage::init()
 {
     //////////////////////////////
     // 1. super init first
@@ -68,21 +68,21 @@ bool HelloWorld::init()
 	txt_user_name->setText(user_name.c_str());
 
 	// init listeners
-	btn_yue->addClickEventListener(CC_CALLBACK_1(HelloWorld::onClick, this));
-	btn_girl->addClickEventListener(CC_CALLBACK_1(HelloWorld::onClick, this));
-	btn_boy->addClickEventListener(CC_CALLBACK_1(HelloWorld::onClick, this));
+	btn_yue->addClickEventListener(CC_CALLBACK_1(RegisterStage::onClick, this));
+	btn_girl->addClickEventListener(CC_CALLBACK_1(RegisterStage::onClick, this));
+	btn_boy->addClickEventListener(CC_CALLBACK_1(RegisterStage::onClick, this));
 
     return true;
 }
 
-void HelloWorld::showYuemaTip() {
+void RegisterStage::showYuemaTip() {
 	// cocos studio animation
 	auto tip_yuema_action = CSLoader::createTimeline("scene/register/ui/tip_yuema.csb");
 	tip_yuema->runAction(tip_yuema_action);
 	tip_yuema_action->gotoFrameAndPlay(0, 15, false);
 }
 
-void HelloWorld::onGirlClick() {
+void RegisterStage::onGirlClick() {
 	showYuemaTip();
 	auto texture = Director::getInstance()->getTextureCache()->addImage("scene/register/ui/btn_choose_pressed.png");
 	radio_girl->setTexture(texture);
@@ -93,7 +93,7 @@ void HelloWorld::onGirlClick() {
 	sex = "girl";
 }
 
-void HelloWorld::onBoyClick() {
+void RegisterStage::onBoyClick() {
 	showYuemaTip();
 	auto texture = Director::getInstance()->getTextureCache()->addImage("scene/register/ui/btn_choose.png");
 	radio_girl->setTexture(texture);
@@ -104,7 +104,7 @@ void HelloWorld::onBoyClick() {
 	sex = "boy";
 }
 
-void HelloWorld::onYueClick() {
+void RegisterStage::onYueClick() {
 	user_name = txt_user_name->getText();
 	if (user_name.empty()) {
 		showYuemaTip();
@@ -120,7 +120,7 @@ void HelloWorld::onYueClick() {
 	}
 }
 
-void HelloWorld::onClick(Ref *pSender) {
+void RegisterStage::onClick(Ref *pSender) {
 	cocos2d::Node* node = dynamic_cast<cocos2d::Node*> (pSender);
 	int tag = node->getTag();
 	switch (tag)

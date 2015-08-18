@@ -1,10 +1,10 @@
-#ifndef __HELLOWORLD_SCENE_H__
-#define __HELLOWORLD_SCENE_H__
+#ifndef __REGISTER_SCENE_H__
+#define __REGISTER_SCENE_H__
 
 #include "cocos2d.h"
 #include "ui/CocosGUI.h"
 
-class HelloWorld : public cocos2d::Layer
+class RegisterStage : public cocos2d::Layer
 {
 public:
     // there's no 'id' in cpp, so we recommend returning the class instance pointer
@@ -14,7 +14,7 @@ public:
     virtual bool init();
 
     // implement the "static create()" method manually
-    CREATE_FUNC(HelloWorld);
+	CREATE_FUNC(RegisterStage);
 
 	// listeners
 	void onClick(Ref *pSender);
@@ -41,4 +41,4 @@ private:
 	void onYueClick();
 };
 
-#endif // __HELLOWORLD_SCENE_H__
+#endif // __REGISTER_SCENE_H__

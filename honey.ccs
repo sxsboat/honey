@@ -180,6 +180,12 @@
           </Folder>
         </Folder>
         <Folder Name="image" />
+        <Folder Name="data">
+          <File Name="girls_info.json" />
+          <File Name="girls_record.xml" />
+          <File Name="girls_index.xml" />
+          <File Name="girls_state.xml" />
+        </Folder>
       </RootFolder>
     </Group>
   </SolutionFolder>

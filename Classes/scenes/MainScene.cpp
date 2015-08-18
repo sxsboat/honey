@@ -3,11 +3,13 @@
 #include "MainScene.h"
 #include "ChatScene.h"
 #include "ScanScene.h"
-#include "NodeUtil.h"
+#include "../utils/NodeUtil.h"
+
 
 USING_NS_CC;
 
 using namespace cocostudio::timeline;
+using namespace rapidjson;
 
 Scene* MainStage::createScene()
 {
@@ -63,7 +65,6 @@ bool MainStage::init()
 
 	// setting
 	btn_ok = dynamic_cast<cocos2d::ui::Button*>(NodeUtil::seekFromRootByName(pnl_setting, std::string("btn_ok")));
-	
 
 	//auto button = ui::Button::create();
 	//button->loadTextureNormal("scene/register/ui/yuema.png");
