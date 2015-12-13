@@ -1,5 +1,5 @@
 <Solution>
-  <PropertyGroup Name="honey" Version="2.3.1.2" Type="CocosStudio" />
+  <PropertyGroup Name="honey" Version="2.3.3.0" Type="CocosStudio" />
   <SolutionFolder>
     <Group ctype="ResourceGroup">
       <RootFolder Name=".">
@@ -179,12 +179,72 @@
             </Folder>
           </Folder>
         </Folder>
-        <Folder Name="image" />
+        <Folder Name="image">
+          <Image Name="1_0.png" />
+          <Image Name="1_1.jpg" />
+          <Image Name="1_icon.png" />
+          <Image Name="10_0.png" />
+          <Image Name="10_1.jpg" />
+          <Image Name="10_icon.png" />
+          <Image Name="11_0.jpg" />
+          <Image Name="11_1.png" />
+          <Image Name="11_icon.png" />
+          <Image Name="12_0.jpg" />
+          <Image Name="12_1.jpg" />
+          <Image Name="12_icon.png" />
+          <Image Name="13_0.jpg" />
+          <Image Name="13_1.jpg" />
+          <Image Name="13_icon.jpg" />
+          <Image Name="14_0.jpg" />
+          <Image Name="14_1.jpg" />
+          <Image Name="14_icon.png" />
+          <Image Name="15_0.jpg" />
+          <Image Name="15_1.png" />
+          <Image Name="15_icon.png" />
+          <Image Name="16_0.png" />
+          <Image Name="16_1.jpg" />
+          <Image Name="16_icon.png" />
+          <Image Name="2_0.png" />
+          <Image Name="2_1.jpg" />
+          <Image Name="2_icon.png" />
+          <Image Name="3_0.jpg" />
+          <Image Name="3_1.png" />
+          <Image Name="3_icon.png" />
+          <Image Name="4_0.png" />
+          <Image Name="4_1.jpg" />
+          <Image Name="4_icon.png" />
+          <Image Name="5_0.png" />
+          <Image Name="5_1.png" />
+          <Image Name="5_icon.png" />
+          <Image Name="6_0.jpg" />
+          <Image Name="6_1.jpg" />
+          <Image Name="6_icon.png" />
+          <Image Name="7_0.png" />
+          <Image Name="7_1.png" />
+          <Image Name="7_icon.png" />
+          <Image Name="8_0.jpg" />
+          <Image Name="8_1.png" />
+          <Image Name="8_icon.png" />
+          <Image Name="9_0.jpg" />
+          <Image Name="9_1.jpg" />
+          <Image Name="9_icon.png" />
+          <Image Name="Chat1_0.png" />
+          <Image Name="Chat1_1.jpg" />
+          <Image Name="Chat1_icon.png" />
+          <Image Name="chat2_0.jpg" />
+          <Image Name="chat2_1.jpg" />
+          <Image Name="chat2_icon.png" />
+          <Image Name="chat3_0.png" />
+          <Image Name="chat3_1.png" />
+          <Image Name="chat3_2.jpg" />
+          <Image Name="chat3_icon.png" />
+          <Image Name="Chat4_0.png" />
+          <Image Name="Chat4_1.jpg" />
+          <Image Name="Chat4_icon.png" />
+        </Folder>
         <Folder Name="data">
-          <File Name="girls_info.json" />
-          <File Name="girls_record.xml" />
-          <File Name="girls_index.xml" />
-          <File Name="girls_state.xml" />
+          <File Name="config.json" />
+          <File Name="state.json" />
         </Folder>
       </RootFolder>
     </Group>

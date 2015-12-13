@@ -1,12 +1,12 @@
-<GameProjectFile>
-  <PropertyGroup Type="Scene" Name="scene" ID="427b78a1-4a9b-4a9b-b033-2133cc99d001" Version="2.3.1.2" />
+<GameFile>
+  <PropertyGroup Name="scene" Type="Scene" ID="427b78a1-4a9b-4a9b-b033-2133cc99d001" Version="2.3.3.0" />
   <Content ctype="GameProjectContent">
     <Content>
       <Animation Duration="0" Speed="1.0000" />
       <ObjectData Name="Scene" Tag="130" ctype="GameNodeObjectData">
         <Size X="540.0000" Y="960.0000" />
         <Children>
-          <AbstractNodeData Name="head" CanEdit="False" ActionTag="1311208053" Tag="172" IconVisible="True" VerticalEdge="TopEdge" BottomMargin="860.0000" InnerActionSpeed="1.0000" ctype="ProjectNodeObjectData">
+          <AbstractNodeData Name="head" CanEdit="False" ActionTag="1311208053" Tag="172" IconVisible="True" VerticalEdge="TopEdge" BottomMargin="860.0000" StretchWidthEnable="False" StretchHeightEnable="False" InnerActionSpeed="1.0000" CustomSizeEnabled="False" ctype="ProjectNodeObjectData">
             <Size X="540.0000" Y="100.0000" />
             <AnchorPoint />
             <Position Y="860.0000" />
@@ -82,7 +82,7 @@
             <EndColor A="255" R="255" G="255" B="255" />
             <ColorVector ScaleY="1.0000" />
           </AbstractNodeData>
-          <AbstractNodeData Name="footer" CanEdit="False" ActionTag="660867392" Tag="439" IconVisible="True" TopMargin="886.0000" InnerActionSpeed="1.0000" ctype="ProjectNodeObjectData">
+          <AbstractNodeData Name="footer" CanEdit="False" ActionTag="660867392" Tag="439" IconVisible="True" TopMargin="886.0000" StretchWidthEnable="False" StretchHeightEnable="False" InnerActionSpeed="1.0000" CustomSizeEnabled="False" ctype="ProjectNodeObjectData">
             <Size X="540.0000" Y="74.0000" />
             <AnchorPoint />
             <Position />
@@ -195,4 +195,4 @@
       </ObjectData>
     </Content>
   </Content>
-</GameProjectFile>
+</GameFile>

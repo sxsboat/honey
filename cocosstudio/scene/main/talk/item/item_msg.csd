@@ -1,5 +1,5 @@
-<GameProjectFile>
-  <PropertyGroup Type="Layer" Name="item_msg" ID="ec4287a8-91aa-485e-a7f8-ed51677b0fd4" Version="2.3.1.2" />
+<GameFile>
+  <PropertyGroup Name="item_msg" Type="Layer" ID="ec4287a8-91aa-485e-a7f8-ed51677b0fd4" Version="2.3.3.0" />
   <Content ctype="GameProjectContent">
     <Content>
       <Animation Duration="0" Speed="1.0000" />
@@ -123,4 +123,4 @@
       </ObjectData>
     </Content>
   </Content>
-</GameProjectFile>
+</GameFile>

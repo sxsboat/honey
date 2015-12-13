@@ -1,4 +1,4 @@
-<UserData Version="2.3.1.2">
+<UserData Version="2.3.3.0">
   <Properties>
     <Item Key="CocosRecentOperation">
       <Value ctype="CocosRecentOperation">
@@ -17,7 +17,7 @@
         <AndroidVersion Value="android-20" />
         <iOS_Target Value="honey-mobile" />
         <iOS_BundleID Value="" />
-        <Platform Value="None" />
+        <Platform Value="Android" />
         <RunPlatform Value="Android" />
         <FrameworkVersion Value="cocos2d-x-3.7" />
         <IsDebugKeystore Value="True" />
@@ -26,6 +26,11 @@
         <KeystoreAliasPassword Value="" />
         <EnableSourceMap Value="False" />
         <EnableHTML5Advanced Value="False" />
+      </Value>
+    </Item>
+    <Item Key="TabsParamsKey">
+      <Value ctype="TabsInfo">
+        <ActiveDocument />
       </Value>
     </Item>
   </Properties>

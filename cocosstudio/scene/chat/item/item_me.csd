@@ -1,5 +1,5 @@
-<GameProjectFile>
-  <PropertyGroup Type="Node" Name="item_me" ID="f6a0e5c7-ad05-429c-9b08-43932a3beea6" Version="2.3.1.2" />
+<GameFile>
+  <PropertyGroup Name="item_me" Type="Node" ID="f6a0e5c7-ad05-429c-9b08-43932a3beea6" Version="2.3.3.0" />
   <Content ctype="GameProjectContent">
     <Content>
       <Animation Duration="0" Speed="1.0000" />
@@ -59,4 +59,4 @@
       </ObjectData>
     </Content>
   </Content>
-</GameProjectFile>
+</GameFile>

@@ -1,5 +1,5 @@
-<GameProjectFile>
-  <PropertyGroup Type="Scene" Name="scene" ID="4dffd46a-93f7-4ef5-9d5f-874daa57254e" Version="2.3.1.2" />
+<GameFile>
+  <PropertyGroup Name="scene" Type="Scene" ID="4dffd46a-93f7-4ef5-9d5f-874daa57254e" Version="2.3.3.0" />
   <Content ctype="GameProjectContent">
     <Content>
       <Animation Duration="0" Speed="1.0000" />
@@ -22,7 +22,7 @@
                 <EndColor A="255" R="255" G="255" B="255" />
                 <ColorVector ScaleY="1.0000" />
               </AbstractNodeData>
-              <AbstractNodeData Name="pnl_keep" CanEdit="False" Visible="False" ActionTag="357818593" Tag="292" VisibleForFrame="False" IconVisible="False" PercentWidthEnable="True" PercentHeightEnable="True" PercentWidthEnabled="True" PercentHeightEnabled="True" TouchEnable="True" BackColorAlpha="102" ComboBoxIndex="1" ColorAngle="90.0000" ctype="PanelObjectData">
+              <AbstractNodeData Name="pnl_keep" CanEdit="False" Visible="False" ActionTag="357818593" VisibleForFrame="False" Tag="292" IconVisible="False" PercentWidthEnable="True" PercentHeightEnable="True" PercentWidthEnabled="True" PercentHeightEnabled="True" TouchEnable="True" BackColorAlpha="102" ComboBoxIndex="1" ColorAngle="90.0000" ctype="PanelObjectData">
                 <Size X="540.0000" Y="760.0320" />
                 <Children>
                   <AbstractNodeData Name="pnl_circle" CanEdit="False" ActionTag="-1943945486" Tag="257" IconVisible="False" PercentHeightEnable="True" PercentHeightEnabled="True" VerticalEdge="TopEdge" BottomMargin="562.4237" TouchEnable="True" BackColorAlpha="102" ColorAngle="90.0000" ctype="PanelObjectData">
@@ -104,10 +104,10 @@
                 <EndColor A="255" R="255" G="255" B="255" />
                 <ColorVector ScaleY="1.0000" />
               </AbstractNodeData>
-              <AbstractNodeData Name="pnl_find" CanEdit="False" Visible="False" ActionTag="1332568777" Tag="140" VisibleForFrame="False" IconVisible="False" PercentWidthEnable="True" PercentHeightEnable="True" PercentWidthEnabled="True" PercentHeightEnabled="True" TouchEnable="True" BackColorAlpha="102" ColorAngle="90.0000" ctype="PanelObjectData">
+              <AbstractNodeData Name="pnl_find" CanEdit="False" Visible="False" ActionTag="1332568777" VisibleForFrame="False" Tag="140" IconVisible="False" PercentWidthEnable="True" PercentHeightEnable="True" PercentWidthEnabled="True" PercentHeightEnabled="True" TouchEnable="True" BackColorAlpha="102" ColorAngle="90.0000" ctype="PanelObjectData">
                 <Size X="540.0000" Y="760.0320" />
                 <Children>
-                  <AbstractNodeData Name="tag_find" ActionTag="2113914390" Tag="191" IconVisible="True" VerticalEdge="TopEdge" BottomMargin="710.0320" InnerActionSpeed="1.0000" ctype="ProjectNodeObjectData">
+                  <AbstractNodeData Name="tag_find" ActionTag="2113914390" Tag="191" IconVisible="True" VerticalEdge="TopEdge" BottomMargin="710.0320" StretchWidthEnable="False" StretchHeightEnable="False" InnerActionSpeed="1.0000" CustomSizeEnabled="False" ctype="ProjectNodeObjectData">
                     <Size X="540.0000" Y="50.0000" />
                     <AnchorPoint />
                     <Position Y="710.0320" />
@@ -142,7 +142,7 @@
                 <EndColor A="255" R="255" G="255" B="255" />
                 <ColorVector ScaleY="1.0000" />
               </AbstractNodeData>
-              <AbstractNodeData Name="pnl_setting" CanEdit="False" ActionTag="2125420966" Tag="293" VisibleForFrame="False" IconVisible="False" PercentWidthEnable="True" PercentHeightEnable="True" PercentWidthEnabled="True" PercentHeightEnabled="True" TouchEnable="True" BackColorAlpha="102" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
+              <AbstractNodeData Name="pnl_setting" CanEdit="False" ActionTag="2125420966" VisibleForFrame="False" Tag="293" IconVisible="False" PercentWidthEnable="True" PercentHeightEnable="True" PercentWidthEnabled="True" PercentHeightEnabled="True" TouchEnable="True" BackColorAlpha="102" ColorAngle="90.0000" Scale9Width="1" Scale9Height="1" ctype="PanelObjectData">
                 <Size X="540.0000" Y="760.0320" />
                 <Children>
                   <AbstractNodeData Name="pnl_top" CanEdit="False" ActionTag="2049513089" Tag="1882" IconVisible="False" PercentHeightEnable="True" PercentHeightEnabled="True" VerticalEdge="TopEdge" BottomMargin="281.2118" TouchEnable="True" ClipAble="True" BackColorAlpha="102" ColorAngle="90.0000" Scale9Enable="True" LeftEage="178" RightEage="178" TopEage="135" BottomEage="135" Scale9OriginX="178" Scale9OriginY="135" Scale9Width="184" Scale9Height="140" ctype="PanelObjectData">
@@ -524,7 +524,7 @@
             <EndColor A="255" R="255" G="255" B="255" />
             <ColorVector ScaleY="1.0000" />
           </AbstractNodeData>
-          <AbstractNodeData Name="head" CanEdit="False" ActionTag="-224854859" Tag="86" IconVisible="True" VerticalEdge="TopEdge" BottomMargin="860.0000" InnerActionSpeed="1.0000" ctype="ProjectNodeObjectData">
+          <AbstractNodeData Name="head" CanEdit="False" ActionTag="-224854859" Tag="86" IconVisible="True" VerticalEdge="TopEdge" BottomMargin="860.0000" StretchWidthEnable="False" StretchHeightEnable="False" InnerActionSpeed="1.0000" CustomSizeEnabled="False" ctype="ProjectNodeObjectData">
             <Size X="540.0000" Y="100.0000" />
             <AnchorPoint />
             <Position Y="860.0000" />
@@ -534,7 +534,7 @@
             <PreSize X="1.0000" Y="0.1042" />
             <FileData Type="Normal" Path="scene/main/layer/head_layer.csd" Plist="" />
           </AbstractNodeData>
-          <AbstractNodeData Name="tab" CanEdit="False" ActionTag="-437468246" Tag="17" IconVisible="True" TopMargin="860.0000" InnerActionSpeed="1.0000" ctype="ProjectNodeObjectData">
+          <AbstractNodeData Name="tab" CanEdit="False" ActionTag="-437468246" Tag="17" IconVisible="True" TopMargin="860.0000" StretchWidthEnable="False" StretchHeightEnable="False" InnerActionSpeed="1.0000" CustomSizeEnabled="False" ctype="ProjectNodeObjectData">
             <Size X="540.0000" Y="100.0000" />
             <AnchorPoint />
             <Position />
@@ -548,4 +548,4 @@
       </ObjectData>
     </Content>
   </Content>
-</GameProjectFile>
+</GameFile>

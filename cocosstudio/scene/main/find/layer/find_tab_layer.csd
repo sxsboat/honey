@@ -1,5 +1,5 @@
-<GameProjectFile>
-  <PropertyGroup Type="Layer" Name="find_tab_layer" ID="fbcfe2b0-223d-4572-846e-57f448f5751a" Version="2.3.1.2" />
+<GameFile>
+  <PropertyGroup Name="find_tab_layer" Type="Layer" ID="fbcfe2b0-223d-4572-846e-57f448f5751a" Version="2.3.3.0" />
   <Content ctype="GameProjectContent">
     <Content>
       <Animation Duration="0" Speed="1.0000" />
@@ -106,4 +106,4 @@
       </ObjectData>
     </Content>
   </Content>
-</GameProjectFile>
+</GameFile>

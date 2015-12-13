@@ -1,5 +1,5 @@
-<GameProjectFile>
-  <PropertyGroup Type="Scene" Name="scene" ID="2fb979a8-b36b-4571-a7c2-8224a81aa6ff" Version="2.3.1.2" />
+<GameFile>
+  <PropertyGroup Name="scene" Type="Scene" ID="2fb979a8-b36b-4571-a7c2-8224a81aa6ff" Version="2.3.3.0" />
   <Content ctype="GameProjectContent">
     <Content>
       <Animation Duration="0" Speed="1.0000" />
@@ -9,7 +9,7 @@
           <AbstractNodeData Name="img_bg" ActionTag="-859460685" Tag="17" IconVisible="False" VerticalEdge="BothEdge" TopMargin="100.0000" StretchHeightEnable="True" Scale9Width="540" Scale9Height="860" ctype="ImageViewObjectData">
             <Size X="540.0000" Y="860.0000" />
             <Children>
-              <AbstractNodeData Name="spr_light" ActionTag="1000920292" Tag="18" Rotation="90.0000" RotationSkewX="90.0000" RotationSkewY="90.0088" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="-169.8536" RightMargin="262.8536" TopMargin="446.5813" BottomMargin="230.4187" ctype="SpriteObjectData">
+              <AbstractNodeData Name="spr_light" ActionTag="1000920292" Tag="18" RotationSkewX="90.0000" RotationSkewY="90.0088" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="-169.8536" RightMargin="262.8536" TopMargin="446.5813" BottomMargin="230.4187" Rotation="90.0000" ctype="SpriteObjectData">
                 <Size X="447.0000" Y="183.0000" />
                 <AnchorPoint ScaleX="1.0000" ScaleY="1.0000" />
                 <Position X="277.1464" Y="413.4187" />
@@ -63,7 +63,7 @@
             <PreSize X="1.0000" Y="0.8958" />
             <FileData Type="Normal" Path="scene/scan/ui/scan_bg.jpg" Plist="" />
           </AbstractNodeData>
-          <AbstractNodeData Name="header" CanEdit="False" ActionTag="-1342424675" Tag="90" IconVisible="True" VerticalEdge="TopEdge" BottomMargin="860.0000" InnerActionSpeed="1.0000" ctype="ProjectNodeObjectData">
+          <AbstractNodeData Name="header" CanEdit="False" ActionTag="-1342424675" Tag="90" IconVisible="True" VerticalEdge="TopEdge" BottomMargin="860.0000" StretchWidthEnable="False" StretchHeightEnable="False" InnerActionSpeed="1.0000" CustomSizeEnabled="False" ctype="ProjectNodeObjectData">
             <Size X="540.0000" Y="100.0000" />
             <AnchorPoint />
             <Position Y="860.0000" />
@@ -77,4 +77,4 @@
       </ObjectData>
     </Content>
   </Content>
-</GameProjectFile>
+</GameFile>

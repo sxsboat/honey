@@ -43,6 +43,11 @@ private:
 	cocos2d::ui::Layout* pnl_show;
 	cocos2d::ui::ImageView* img_arrow;
 
+	// a_list
+	cocos2d::ui::Text* lb_reply_0;
+	cocos2d::ui::Text* lb_reply_1;
+	cocos2d::ui::Text* lb_reply_2;
+
 	// footer show panel
 	cocos2d::ui::Layout* pnl_reply_select;
 

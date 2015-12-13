@@ -1,5 +1,5 @@
-<GameProjectFile>
-  <PropertyGroup Type="Node" Name="tip_yuema" ID="33d80407-6429-4bb4-a77c-7aa7f201088a" Version="2.3.1.2" />
+<GameFile>
+  <PropertyGroup Name="tip_yuema" Type="Node" ID="33d80407-6429-4bb4-a77c-7aa7f201088a" Version="2.3.3.0" />
   <Content ctype="GameProjectContent">
     <Content>
       <Animation Duration="15" Speed="1.0000">
@@ -43,4 +43,4 @@
       </ObjectData>
     </Content>
   </Content>
-</GameProjectFile>
+</GameFile>

@@ -1,5 +1,5 @@
-<GameProjectFile>
-  <PropertyGroup Type="Layer" Name="head_layer" ID="bff893bf-e77d-4974-b840-8787c57bbb19" Version="2.3.1.2" />
+<GameFile>
+  <PropertyGroup Name="head_layer" Type="Layer" ID="bff893bf-e77d-4974-b840-8787c57bbb19" Version="2.3.3.0" />
   <Content ctype="GameProjectContent">
     <Content>
       <Animation Duration="0" Speed="1.0000" />
@@ -148,4 +148,4 @@
       </ObjectData>
     </Content>
   </Content>
-</GameProjectFile>
+</GameFile>

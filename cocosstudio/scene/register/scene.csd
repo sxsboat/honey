@@ -1,5 +1,5 @@
-<GameProjectFile>
-  <PropertyGroup Type="Scene" Name="scene" ID="a7ad9184-18ed-495a-b654-168c9f76aeef" Version="2.3.1.2" />
+<GameFile>
+  <PropertyGroup Name="scene" Type="Scene" ID="a7ad9184-18ed-495a-b654-168c9f76aeef" Version="2.3.3.0" />
   <Content ctype="GameProjectContent">
     <Content>
       <Animation Duration="0" Speed="1.0000" />
@@ -17,7 +17,7 @@
             <FileData Type="Normal" Path="scene/register/image/bg.jpg" Plist="" />
             <BlendFunc Src="770" Dst="771" />
           </AbstractNodeData>
-          <AbstractNodeData Name="layer_register" ActionTag="1225520820" Tag="4132" IconVisible="True" PositionPercentYEnabled="True" LeftMargin="0.0026" RightMargin="-0.0026" TopMargin="144.8000" BottomMargin="115.2000" InnerActionSpeed="1.0000" ctype="ProjectNodeObjectData">
+          <AbstractNodeData Name="layer_register" ActionTag="1225520820" Tag="4132" IconVisible="True" PositionPercentYEnabled="True" LeftMargin="0.0026" RightMargin="-0.0026" TopMargin="144.8000" BottomMargin="115.2000" StretchWidthEnable="False" StretchHeightEnable="False" InnerActionSpeed="1.0000" CustomSizeEnabled="False" ctype="ProjectNodeObjectData">
             <Size X="540.0000" Y="700.0000" />
             <AnchorPoint />
             <Position X="0.0026" Y="115.2000" />
@@ -31,4 +31,4 @@
       </ObjectData>
     </Content>
   </Content>
-</GameProjectFile>
+</GameFile>

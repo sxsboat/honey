@@ -1,0 +1,12 @@
+{
+    "base": {
+        "playtime": 0,
+        "gold": 5,
+        "last_play_time": 0,
+        "msg_count": 0,
+        "game_state": 0
+    },
+    "users": {
+        
+    }
+}

@@ -1,5 +1,5 @@
-<GameProjectFile>
-  <PropertyGroup Type="Layer" Name="footer_layer" ID="47e97a1b-9fec-4373-907d-30609cb6f4eb" Version="2.3.1.2" />
+<GameFile>
+  <PropertyGroup Name="footer_layer" Type="Layer" ID="47e97a1b-9fec-4373-907d-30609cb6f4eb" Version="2.3.3.0" />
   <Content ctype="GameProjectContent">
     <Content>
       <Animation Duration="0" Speed="1.0000" />
@@ -42,7 +42,7 @@
           <AbstractNodeData Name="img_say" ActionTag="1965596248" Tag="425" IconVisible="False" LeftMargin="103.6346" RightMargin="108.3654" TopMargin="13.5781" BottomMargin="14.4219" TouchEnable="True" Scale9Width="328" Scale9Height="46" ctype="ImageViewObjectData">
             <Size X="328.0000" Y="46.0000" />
             <Children>
-              <AbstractNodeData Name="lb_gold" ActionTag="925621317" Tag="70" VisibleForFrame="False" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="118.1364" RightMargin="29.8636" TopMargin="9.9354" BottomMargin="10.0646" IsCustomSize="True" FontSize="24" LabelText="去掉最差选项！" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+              <AbstractNodeData Name="lb_gold" ActionTag="925621317" VisibleForFrame="False" Tag="70" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="118.1364" RightMargin="29.8636" TopMargin="9.9354" BottomMargin="10.0646" IsCustomSize="True" FontSize="24" LabelText="去掉最差选项！" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
                 <Size X="180.0000" Y="26.0000" />
                 <Children>
                   <AbstractNodeData Name="lb_num" ActionTag="-551821353" Tag="287" IconVisible="False" LeftMargin="-54.6068" RightMargin="248.6068" TopMargin="2.1270" BottomMargin="3.8730" FontSize="24" LabelText="5" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
@@ -90,4 +90,4 @@
       </ObjectData>
     </Content>
   </Content>
-</GameProjectFile>
+</GameFile>

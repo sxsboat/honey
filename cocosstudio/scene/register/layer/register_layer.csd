@@ -1,5 +1,5 @@
-<GameProjectFile>
-  <PropertyGroup Type="Layer" Name="register_layer" ID="e14343df-f2a9-44b0-bbfa-f7aa22eeede1" Version="2.3.1.2" />
+<GameFile>
+  <PropertyGroup Name="register_layer" Type="Layer" ID="e14343df-f2a9-44b0-bbfa-f7aa22eeede1" Version="2.3.3.0" />
   <Content ctype="GameProjectContent">
     <Content>
       <Animation Duration="0" Speed="1.0000" />
@@ -152,7 +152,7 @@
             <PrePosition X="0.4965" Y="0.3035" />
             <PreSize X="0.5556" Y="0.0521" />
           </AbstractNodeData>
-          <AbstractNodeData Name="tip_yuema" ActionTag="1772097985" Tag="4274" IconVisible="True" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="107.3337" RightMargin="432.6663" TopMargin="63.7030" BottomMargin="636.2970" InnerActionSpeed="1.0000" ctype="ProjectNodeObjectData">
+          <AbstractNodeData Name="tip_yuema" ActionTag="1772097985" Tag="4274" IconVisible="True" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="107.3337" RightMargin="432.6663" TopMargin="63.7030" BottomMargin="636.2970" StretchWidthEnable="False" StretchHeightEnable="False" InnerActionSpeed="1.0000" CustomSizeEnabled="False" ctype="ProjectNodeObjectData">
             <Size X="0.0000" Y="0.0000" />
             <AnchorPoint />
             <Position X="107.3337" Y="636.2970" />
@@ -166,4 +166,4 @@
       </ObjectData>
     </Content>
   </Content>
-</GameProjectFile>
+</GameFile>

@@ -1,5 +1,5 @@
-<GameProjectFile>
-  <PropertyGroup Type="Layer" Name="tab_layer" ID="e18b3477-f3f1-4ff8-b0b3-e6179d6de5f6" Version="2.3.1.2" />
+<GameFile>
+  <PropertyGroup Name="tab_layer" Type="Layer" ID="e18b3477-f3f1-4ff8-b0b3-e6179d6de5f6" Version="2.3.3.0" />
   <Content ctype="GameProjectContent">
     <Content>
       <Animation Duration="0" Speed="1.0000" />
@@ -77,7 +77,7 @@
                 <PreSize X="0.4600" Y="0.8667" />
                 <FileData Type="Normal" Path="scene/main/ui/common/keep_off.png" Plist="" />
               </AbstractNodeData>
-              <AbstractNodeData Name="spr_batch" ActionTag="-1557830583" Tag="30" VisibleForFrame="False" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="54.9200" RightMargin="17.0800" TopMargin="-6.1220" BottomMargin="38.1220" ctype="SpriteObjectData">
+              <AbstractNodeData Name="spr_batch" ActionTag="-1557830583" VisibleForFrame="False" Tag="30" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="54.9200" RightMargin="17.0800" TopMargin="-6.1220" BottomMargin="38.1220" ctype="SpriteObjectData">
                 <Size X="28.0000" Y="28.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position X="68.9200" Y="52.1220" />
@@ -124,7 +124,7 @@
                 <PreSize X="0.4600" Y="0.9000" />
                 <FileData Type="Normal" Path="scene/main/ui/common/find_off.png" Plist="" />
               </AbstractNodeData>
-              <AbstractNodeData Name="spr_batch" ActionTag="1263262339" Tag="34" VisibleForFrame="False" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="54.9200" RightMargin="17.0800" TopMargin="-6.1220" BottomMargin="38.1220" ctype="SpriteObjectData">
+              <AbstractNodeData Name="spr_batch" ActionTag="1263262339" VisibleForFrame="False" Tag="34" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="54.9200" RightMargin="17.0800" TopMargin="-6.1220" BottomMargin="38.1220" ctype="SpriteObjectData">
                 <Size X="28.0000" Y="28.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position X="68.9200" Y="52.1220" />
@@ -171,7 +171,7 @@
                 <PreSize X="0.4600" Y="0.8667" />
                 <FileData Type="Normal" Path="scene/main/ui/common/setting_off.png" Plist="" />
               </AbstractNodeData>
-              <AbstractNodeData Name="spr_batch" ActionTag="-1617497223" Tag="38" VisibleForFrame="False" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="54.9200" RightMargin="17.0800" TopMargin="-6.1220" BottomMargin="38.1220" ctype="SpriteObjectData">
+              <AbstractNodeData Name="spr_batch" ActionTag="-1617497223" VisibleForFrame="False" Tag="38" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" LeftMargin="54.9200" RightMargin="17.0800" TopMargin="-6.1220" BottomMargin="38.1220" ctype="SpriteObjectData">
                 <Size X="28.0000" Y="28.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position X="68.9200" Y="52.1220" />
@@ -209,4 +209,4 @@
       </ObjectData>
     </Content>
   </Content>
-</GameProjectFile>
+</GameFile>

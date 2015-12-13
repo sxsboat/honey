@@ -3,11 +3,12 @@
 #include "ui/CocosGUI.h"
 #include "MainScene.h"
 #include "../utils/NodeUtil.h"
+#include "../utils/Util.h"
+#include "../core/GameHelper.h"
 
 USING_NS_CC;
 
 using namespace cocostudio::timeline;
-
 Scene* RegisterStage::createScene()
 {
     // 'scene' is an autorelease object
@@ -32,7 +33,10 @@ bool RegisterStage::init()
     {
         return false;
     }
-    
+
+	GameHelper::getInstance()->init();
+	GameHelper::getInstance()->start();
+
 	// init data
 	sex = "girl";
 	user_name = UserDefault::getInstance()->getStringForKey("user_name");
